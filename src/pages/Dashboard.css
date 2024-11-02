@@ -1,0 +1,77 @@
+.dashboard-container {
+  font-family: "Arial, sans-serif";
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.welcome-card {
+  background-color: #f9d567;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 2;
+}
+
+.welcome-card h2 {
+  margin: 10px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.stat {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.leaderboard {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.leader {
+  background-color: #333;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.view-ranks {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upcoming-quizzes {
+  margin-top: 20px;
+}
+
+.quizzes {
+  display: flex;
+  gap: 15px;
+}
+
+.quiz-card {
+  background-color: #ccc;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}

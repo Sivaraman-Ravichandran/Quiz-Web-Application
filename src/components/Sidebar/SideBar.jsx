@@ -16,18 +16,33 @@ const routes = [
   },
   {
     path: "/users",
-    name: "Users",
+    name: "Fill-Blanks",
     icon: <FaUser />,
   },
   {
     path: "/messages",
-    name: "Messages",
+    name: "Quiz-Quest",
     icon: <MdMessage />,
   },
   {
     path: "/analytics",
-    name: "Analytics",
+    name: "Chain Reaction",
     icon: <BiAnalyse />,
+  },
+  {
+    path: "/order",
+    name: "Match-It",
+    icon: <BsCartCheck />,
+  },
+  {
+    path: "/order",
+    name: "True-False",
+    icon: <BsCartCheck />,
+  },
+  {
+    path: "/order",
+    name: "Memory-Match",
+    icon: <BsCartCheck />,
   },
   {
     path: "/file-manager",
@@ -50,11 +65,6 @@ const routes = [
         icon: <FaMoneyBill />,
       },
     ],
-  },
-  {
-    path: "/order",
-    name: "Order",
-    icon: <BsCartCheck />,
   },
   {
     path: "/settings",
@@ -148,7 +158,7 @@ const SideBar = ({ children }) => {
                   exit="hidden"
                   className="logo"
                 >
-                  DoSomeCoding
+                  QuizUp
                 </motion.h1>
               )}
             </AnimatePresence>
