@@ -10,20 +10,20 @@ const Dashboard = () => {
           <p>Check out the latest updates on your quiz..</p>
           <div className="stats">
             <div className="stat">
-              <p>Attended</p>
-              <p>4</p>
+              <p className="stat-label">Attended</p>
+              <p className="stat-value">4</p>
             </div>
             <div className="stat">
-              <p>Days Streak</p>
-              <p>40</p>
+              <p className="stat-label">Days Streak</p>
+              <p className="stat-value">40</p>
             </div>
             <div className="stat">
-              <p>Rank</p>
-              <p>20</p>
+              <p className="stat-label">Rank</p>
+              <p className="stat-value">20</p>
             </div>
             <div className="stat">
-              <p>Points</p>
-              <p>200</p>
+              <p className="stat-label">Points</p>
+              <p className="stat-value">200</p>
             </div>
           </div>
         </div>
@@ -45,6 +45,7 @@ const Dashboard = () => {
           <div className="quiz-card">Calendar Placeholder</div>
         </div>
       </div>
+      
     </div>
   );
 };
