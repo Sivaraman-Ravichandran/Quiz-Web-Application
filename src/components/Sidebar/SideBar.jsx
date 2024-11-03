@@ -8,6 +8,12 @@ import { BsCartCheck } from "react-icons/bs";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import SidebarMenu from "./SidebarMenu";
+import { IoColorFillOutline } from "react-icons/io5";
+import { MdOutlineQuiz } from "react-icons/md";
+import { FaConnectdevelop } from "react-icons/fa";
+import { GiAbstract089 } from "react-icons/gi";
+import { GiBrain } from "react-icons/gi";
+
 const routes = [
   {
     path: "/",
@@ -15,56 +21,34 @@ const routes = [
     icon: <FaHome />,
   },
   {
-    path: "/users",
+    path: "/fill-blanks",
     name: "Fill-Blanks",
-    icon: <FaUser />,
+    icon: <IoColorFillOutline />,
   },
   {
-    path: "/messages",
+    path: "/quiz-quest",
     name: "Quiz-Quest",
-    icon: <MdMessage />,
+    icon: <MdOutlineQuiz />,
   },
   {
-    path: "/analytics",
+    path: "/chain-reaction",
     name: "Chain Reaction",
     icon: <BiAnalyse />,
   },
   {
-    path: "/order",
+    path: "/match-it",
     name: "Match-It",
-    icon: <BsCartCheck />,
+    icon: <FaConnectdevelop />,
   },
   {
-    path: "/order",
+    path: "/true-false",
     name: "True-False",
-    icon: <BsCartCheck />,
+    icon: <GiAbstract089 />,
   },
   {
-    path: "/order",
+    path: "/memory-match",
     name: "Memory-Match",
-    icon: <BsCartCheck />,
-  },
-  {
-    path: "/file-manager",
-    name: "File Manager",
-    icon: <AiTwotoneFileExclamation />,
-    subRoutes: [
-      {
-        path: "/settings/profile",
-        name: "Profile ",
-        icon: <FaUser />,
-      },
-      {
-        path: "/settings/2fa",
-        name: "2FA",
-        icon: <FaLock />,
-      },
-      {
-        path: "/settings/billing",
-        name: "Billing",
-        icon: <FaMoneyBill />,
-      },
-    ],
+    icon: <GiBrain />,
   },
   {
     path: "/settings",
